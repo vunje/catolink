@@ -1,2 +1,2 @@
 # catolink
-Uma wiki pessoal sobre estudos católicos.
+Uma wiki sobre estudos católicos.
