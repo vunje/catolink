@@ -1,6 +1,6 @@
 %title Catolink
-= Catolink =
+# Catolink
 Uma wiki pessoal sobre estudos católicos.
 
-== Álbum de figurinhas dos santos ==
+## Álbum de figurinhas dos santos
 [[Hagiografia]]
