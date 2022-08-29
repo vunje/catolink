@@ -1,0 +1,4 @@
+Sitemap: http://www.vunje.com.br/catolink/sitemapindex.xml
+
+User-Agent: *
+Host: www.vunje.com.br
