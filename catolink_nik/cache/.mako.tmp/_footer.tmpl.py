@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661819786.719434
+_modified_time = 1661820902.539225
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/_footer.tmpl'
 _template_uri = '_footer.tmpl'
@@ -17,8 +17,8 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        content_footer = context.get('content_footer', UNDEFINED)
         template_hooks = context.get('template_hooks', UNDEFINED)
+        content_footer = context.get('content_footer', UNDEFINED)
         __M_writer = context.writer()
         if content_footer:
             __M_writer('  <div class="yp-footer">\n    ')

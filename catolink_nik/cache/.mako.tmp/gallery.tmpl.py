@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661819786.7528887
+_modified_time = 1661820902.6119208
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/gallery.tmpl'
 _template_uri = 'gallery.tmpl'
@@ -28,11 +28,11 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        folders = context.get('folders', UNDEFINED)
         def page_title():
             return render_page_title(context._locals(__M_locals))
-        post = context.get('post', UNDEFINED)
         photo_array = context.get('photo_array', UNDEFINED)
+        post = context.get('post', UNDEFINED)
+        folders = context.get('folders', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         __M_writer('\n')
@@ -71,7 +71,7 @@ def render_body(context,**pageargs):
                         
                 
                 __M_locals_builtin_stored = __M_locals_builtin()
-                __M_locals.update(__M_dict_builtin([(__M_key, __M_locals_builtin_stored[__M_key]) for __M_key in ['extra_class','thumb_link','link','title'] if __M_key in __M_locals_builtin_stored]))
+                __M_locals.update(__M_dict_builtin([(__M_key, __M_locals_builtin_stored[__M_key]) for __M_key in ['thumb_link','extra_class','link','title'] if __M_key in __M_locals_builtin_stored]))
                 __M_writer('\n\n        <figure class="yp-gallery__figure ')
                 __M_writer(str(extra_class))
                 __M_writer('">\n          <a href="')

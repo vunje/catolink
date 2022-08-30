@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661819786.7180662
+_modified_time = 1661820902.5378516
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/_menu.tmpl'
 _template_uri = '_menu.tmpl'
@@ -17,10 +17,10 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        lang = context.get('lang', UNDEFINED)
-        blog_title = context.get('blog_title', UNDEFINED)
         template_hooks = context.get('template_hooks', UNDEFINED)
         navigation_links = context.get('navigation_links', UNDEFINED)
+        blog_title = context.get('blog_title', UNDEFINED)
+        lang = context.get('lang', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('<a href="#menu" id="menuLink" class="menu-link">\n')
         __M_writer('    <span></span>\n</a>\n\n<div id="menu">\n    <div class="pure-menu">\n        <a class="pure-menu-heading" href="/">')

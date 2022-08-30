@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661819786.7878785
+_modified_time = 1661820902.5281482
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/_index.tmpl'
 _template_uri = '_index.tmpl'
@@ -26,11 +26,11 @@ def _mako_generate_namespaces(context):
 def render_body(context,include_content=True,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        __M_locals = __M_dict_builtin(include_content=include_content,pageargs=pageargs)
-        exclude_index_content = context.get('exclude_index_content', UNDEFINED)
-        index_teasers = context.get('index_teasers', UNDEFINED)
-        posts = context.get('posts', UNDEFINED)
+        __M_locals = __M_dict_builtin(pageargs=pageargs,include_content=include_content)
         comp = _mako_get_namespace(context, 'comp')
+        index_teasers = context.get('index_teasers', UNDEFINED)
+        exclude_index_content = context.get('exclude_index_content', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -59,7 +59,7 @@ def render_body(context,include_content=True,**pageargs):
                 __M_writer(str(post.text(teaser_only=index_teasers)))
                 __M_writer('\n          </div>\n')
             __M_writer('      </article>\n    </div>\n')
-        __M_writer('</div>')
+        __M_writer('</div>\n\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
