@@ -5,10 +5,10 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661820902.5779727
+_modified_time = 1661821612.3309271
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/post.tmpl'
-_template_uri = '/post.tmpl'
+_template_uri = 'post.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['page_title', 'subtitle', 'header_image']
 
@@ -30,11 +30,11 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
+        post = context.get('post', UNDEFINED)
         def page_title():
             return render_page_title(context._locals(__M_locals))
         def subtitle():
             return render_subtitle(context._locals(__M_locals))
-        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         __M_writer('\n')
@@ -60,9 +60,9 @@ def render_body(context,**pageargs):
 def render_page_title(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        post = context.get('post', UNDEFINED)
         def page_title():
             return render_page_title(context)
-        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(str(post.title()))
         return ''
@@ -73,9 +73,9 @@ def render_page_title(context,**pageargs):
 def render_subtitle(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        post = context.get('post', UNDEFINED)
         def subtitle():
             return render_subtitle(context)
-        post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(str(post.description()))
         return ''
@@ -86,9 +86,9 @@ def render_subtitle(context,**pageargs):
 def render_header_image(context):
     __M_caller = context.caller_stack._push_frame()
     try:
+        lang = context.get('lang', UNDEFINED)
         post = context.get('post', UNDEFINED)
         default_header_image = context.get('default_header_image', UNDEFINED)
-        lang = context.get('lang', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if post.meta[lang].get('header-image'):
@@ -106,6 +106,6 @@ def render_header_image(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/yesplease/templates/post.tmpl", "uri": "/post.tmpl", "source_encoding": "utf-8", "line_map": {"23": 5, "29": 0, "39": 3, "40": 5, "41": 6, "46": 8, "51": 9, "52": 20, "53": 25, "54": 25, "60": 8, "67": 8, "73": 9, "80": 9, "86": 10, "93": 10, "94": 13, "95": 14, "96": 14, "97": 14, "98": 15, "99": 18, "100": 18, "101": 18, "107": 101}}
+{"filename": "themes/yesplease/templates/post.tmpl", "uri": "post.tmpl", "source_encoding": "utf-8", "line_map": {"23": 5, "29": 0, "39": 3, "40": 5, "41": 6, "46": 8, "51": 9, "52": 20, "53": 25, "54": 25, "60": 8, "67": 8, "73": 9, "80": 9, "86": 10, "93": 10, "94": 13, "95": 14, "96": 14, "97": 14, "98": 15, "99": 18, "100": 18, "101": 18, "107": 101}}
 __M_END_METADATA
 """

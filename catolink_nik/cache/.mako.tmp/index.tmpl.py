@@ -5,10 +5,10 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661820902.5145776
+_modified_time = 1661821612.2810292
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/index.tmpl'
-_template_uri = 'index.tmpl'
+_template_uri = '/index.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['page_title']
 
@@ -28,9 +28,9 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
+        blog_title = context.get('blog_title', UNDEFINED)
         def page_title():
             return render_page_title(context._locals(__M_locals))
-        blog_title = context.get('blog_title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         __M_writer('\n')
@@ -48,9 +48,9 @@ def render_body(context,**pageargs):
 def render_page_title(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        blog_title = context.get('blog_title', UNDEFINED)
         def page_title():
             return render_page_title(context)
-        blog_title = context.get('blog_title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(str(blog_title))
         return ''
@@ -60,6 +60,6 @@ def render_page_title(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/yesplease/templates/index.tmpl", "uri": "index.tmpl", "source_encoding": "utf-8", "line_map": {"27": 0, "35": 23, "36": 25, "41": 26, "42": 28, "48": 26, "55": 26, "61": 55}}
+{"filename": "themes/yesplease/templates/index.tmpl", "uri": "/index.tmpl", "source_encoding": "utf-8", "line_map": {"27": 0, "35": 23, "36": 25, "41": 26, "42": 28, "48": 26, "55": 26, "61": 55}}
 __M_END_METADATA
 """

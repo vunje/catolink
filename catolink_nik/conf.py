@@ -16,16 +16,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Gundstaff"  # (translatable)
-BLOG_TITLE = "CatoLink"  # (translatable)
+BLOG_AUTHOR = "Sacristão"  # (translatable)
+BLOG_TITLE = "Catolink"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "http://www.vunje.com.br/catolink/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://www.vunje.com.br/catolink/"
-BLOG_EMAIL = "gustavofraguas@gmail.com"
-BLOG_DESCRIPTION = "Catolink hub from heaven!"  # (translatable)
+BLOG_EMAIL = "sacristao@gmail.com"
+BLOG_DESCRIPTION = "Catholic hub"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -101,7 +101,8 @@ DEFAULT_LANG = "pt_br"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "pt_br": "./pt_br",
+    # Example for another language:
+    # "es": "./es",
 }
 
 # What will translated input files be named like?
@@ -141,15 +142,9 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
+        ("/archive.html", "Arquivo"),
         ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
-
-    "pt_br": (
-        ("/pt_br/archive.html", "Arquivo"),
-        ("/pt_br/categories/", "Tags"),
-        ("/pt_br/rss.xml", "Feed RSS"),
+        ("/rss.xml", "Feed RSS"),
     ),
 }
 
@@ -1065,7 +1060,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata.
-PRETTY_URLS = True
+PRETTY_URLS = False
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.

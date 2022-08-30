@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661820902.5698547
+_modified_time = 1661821612.2963078
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/tags.tmpl'
 _template_uri = 'tags.tmpl'
@@ -28,15 +28,15 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
+        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
+        items = context.get('items', UNDEFINED)
         range = context.get('range', UNDEFINED)
         def page_title():
             return render_page_title(context._locals(__M_locals))
-        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
+        cat_items = context.get('cat_items', UNDEFINED)
+        hidden_tags = context.get('hidden_tags', UNDEFINED)
         len = context.get('len', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        hidden_tags = context.get('hidden_tags', UNDEFINED)
-        items = context.get('items', UNDEFINED)
-        cat_items = context.get('cat_items', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         __M_writer('\n\n')
@@ -83,9 +83,9 @@ def render_body(context,**pageargs):
 def render_page_title(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        messages = context.get('messages', UNDEFINED)
         def page_title():
             return render_page_title(context)
-        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(messages("Categories")))

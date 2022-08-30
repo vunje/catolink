@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661820902.5228877
+_modified_time = 1661821612.24812
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/_base.tmpl'
 _template_uri = '/_base.tmpl'
@@ -17,23 +17,23 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        capture = context.get('capture', UNDEFINED)
-        next = context.get('next', UNDEFINED)
-        template_hooks = context.get('template_hooks', UNDEFINED)
         blog_title = context.get('blog_title', UNDEFINED)
-        extra_head_data = context.get('extra_head_data', UNDEFINED)
-        def page_title():
-            return render_page_title(context._locals(__M_locals))
-        def subtitle():
-            return render_subtitle(context._locals(__M_locals))
-        self = context.get('self', UNDEFINED)
-        def extra_links():
-            return render_extra_links(context._locals(__M_locals))
-        body_end = context.get('body_end', UNDEFINED)
         def extra_scripts():
             return render_extra_scripts(context._locals(__M_locals))
+        def extra_links():
+            return render_extra_links(context._locals(__M_locals))
+        next = context.get('next', UNDEFINED)
+        def subtitle():
+            return render_subtitle(context._locals(__M_locals))
+        def page_title():
+            return render_page_title(context._locals(__M_locals))
+        template_hooks = context.get('template_hooks', UNDEFINED)
         blog_header_image = context.get('blog_header_image', UNDEFINED)
         hasattr = context.get('hasattr', UNDEFINED)
+        self = context.get('self', UNDEFINED)
+        capture = context.get('capture', UNDEFINED)
+        extra_head_data = context.get('extra_head_data', UNDEFINED)
+        body_end = context.get('body_end', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n    <meta http-equiv="x-ua-compatible" content="ie=edge">\n    <title>\n')
         __M_writer('      ')

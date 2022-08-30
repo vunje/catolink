@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1661820902.5468838
+_modified_time = 1661821612.27809
 _enable_loop = True
 _template_filename = 'themes/yesplease/templates/tag.tmpl'
 _template_uri = 'tag.tmpl'
@@ -28,12 +28,12 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
+        description = context.get('description', UNDEFINED)
+        title = context.get('title', UNDEFINED)
         def page_title():
             return render_page_title(context._locals(__M_locals))
         def subtitle():
             return render_subtitle(context._locals(__M_locals))
-        description = context.get('description', UNDEFINED)
-        title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         __M_writer('\n\n')
@@ -54,9 +54,9 @@ def render_body(context,**pageargs):
 def render_page_title(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        title = context.get('title', UNDEFINED)
         def page_title():
             return render_page_title(context)
-        title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(str(title))
         return ''
@@ -67,9 +67,9 @@ def render_page_title(context,**pageargs):
 def render_subtitle(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
+        description = context.get('description', UNDEFINED)
         def subtitle():
             return render_subtitle(context)
-        description = context.get('description', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if description:
