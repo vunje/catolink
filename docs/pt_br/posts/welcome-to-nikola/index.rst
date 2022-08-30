@@ -13,7 +13,7 @@
    :alt: Nikola Tesla Corner by nicwest, on Flickr
 
 If you can see this in a web browser, it means you managed to install Nikola,
-and build a site using it. Congratulations!
+and build a site using it. Congratulations!!
 
 Next steps:
 

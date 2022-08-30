@@ -7,237 +7,223 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.vunje.com.br/catolink/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/2012/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/archive.html</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/blog/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/cat_nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/categories/python/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/galleries/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/galleries/demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://www.vunje.com.br/catolink/pt_br/galleries/demo/" />
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/listings/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/listings/__pycache__/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/listings/hello.py.html</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/about-nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/bootstrap-demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/charts/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/creating-a-theme/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/extending/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/handbook/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/internals/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/listings-demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/path-handlers/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/quickref/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/quickstart/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/social_buttons/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pages/theming/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/posts/welcome-to-nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/2012/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/archive.html</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/blog/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/cat_nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/categories/python/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/galleries/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/galleries/demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/about-nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/about-nikola/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/bootstrap-demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/bootstrap-demo/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/charts/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/charts/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/creating-a-theme/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/creating-a-theme/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/dr-nikolas-vendetta/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/extending/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/extending/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/handbook/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/handbook/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/internals/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/internals/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/listings-demo/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/listings-demo/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/path-handlers/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/path-handlers/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/quickref/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/quickref/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/quickstart/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/quickstart/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/social_buttons/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/social_buttons/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/pages/theming/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/pages/theming/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.vunje.com.br/catolink/pt_br/posts/welcome-to-nikola/</loc>
-  <lastmod>2022-08-29T22:32:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://www.vunje.com.br/catolink/posts/welcome-to-nikola/" />
+  <lastmod>2022-08-30T00:36:00Z</lastmod>
  </url>
 </urlset>

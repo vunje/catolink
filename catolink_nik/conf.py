@@ -94,7 +94,7 @@ BLOG_DESCRIPTION = "Catolink hub from heaven!"  # (translatable)
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "pt_br"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
@@ -161,7 +161,8 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+# THEME = "bootblog4"
+THEME = "yesplease"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
