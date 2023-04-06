@@ -1,0 +1,6 @@
+# Node modules and output
+node_modules
+dist
+
+# Eleventy site output
+_site
