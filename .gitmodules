@@ -1,0 +1,3 @@
+[submodule "teatime"]
+	path = teatime
+	url = https://github.com/alanmosely/teatime-starter
