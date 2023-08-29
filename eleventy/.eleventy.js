@@ -11,7 +11,7 @@ module.exports = eleventyConfig => {
             input: "src",
             output: "_site",
             layouts: "../_includes/layouts",
-            data: "_data",
+            data: "../_data",
             includes: "../_includes"
         },
         templateFormats:["md", "liquid", "njk"],
