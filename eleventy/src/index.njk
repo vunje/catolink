@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: page.njk
 pagination:
     data: collections.posts
     size: 3
@@ -19,8 +19,9 @@ eleventyNavigation:
 {% endfor %}
 -->
 
-
+<!--
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+-->
 
 {% include "partials/postslist.njk" %}
 
