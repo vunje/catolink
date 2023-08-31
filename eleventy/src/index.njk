@@ -1,11 +1,27 @@
 ---
+layout: base.njk
 pagination:
     data: collections.posts
     size: 3
     alias: posts
     reverse: true
+eleventyNavigation:
+    key: Home
+    order: 0
 ---
+
+
 <h1>Welcome!</h1>
+
+<!--
+{% for post in collections.posts %}
+    {{ post.data.title }}
+{% endfor %}
+-->
+
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+
 {% include "partials/postslist.njk" %}
 
 <div class="pagination">
@@ -24,4 +40,3 @@ pagination:
     <span class="pagination__item">Newer Articles &rarr;</span>
     {% endif %}
 </div>
-
