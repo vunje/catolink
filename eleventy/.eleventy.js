@@ -1,8 +1,19 @@
+const now = String(Date.now());
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { format } = require('date-fns');
 const fs = require("fs");
 
 module.exports = eleventyConfig => {
+    // Tailwind stuff
+    eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
+    eleventyConfig.addWatchTarget('./styles/tailwind.css')
+
+    eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
+
+    eleventyConfig.addShortcode('version', function () {
+        return now
+    })
+
     // Output directory: _site
     // Copy `img/` to `_site/img`
     eleventyConfig.addPassthroughCopy("img");
